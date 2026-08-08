@@ -12,7 +12,7 @@ export const IDENTITY = {
   githubUrl: "https://github.com/adirajDev",
   linkedin: "linkedin.com/in/adirajdev",
   linkedinUrl: "https://www.linkedin.com/in/adirajdev/",
-  resumeUrl: "/aditya-raj-resume.pdf",
+  resumeUrl: "aditya-raj-resume.pdf",
 };
 
 export const HEADERS = [
