@@ -8,7 +8,7 @@ export default function ProjectCard({ project, index }) {
         <h3 className="text-xl md:text-2xl text-text-primary mb-2 font-display">
           {project.name}
         </h3>
-        <p className="text-text-secondary text-[15px] leading-relaxed mb-5">
+        <p className="text-text-secondary text-[17px] leading-relaxed mb-5">
           {project.summary}
         </p>
 
@@ -20,7 +20,7 @@ export default function ProjectCard({ project, index }) {
 
         <ul className="flex flex-col gap-2.5 mb-6">
           {project.points.map((pt, idx) => (
-            <li key={idx} className="text-text-secondary text-sm flex gap-2.5 leading-relaxed">
+            <li key={idx} className="text-text-secondary text-[16px] flex gap-2.5 leading-relaxed">
               <span className="text-accent-b shrink-0">·</span>
               {pt}
             </li>

@@ -17,7 +17,7 @@ export default function Skills() {
             <Reveal key={s.group} delay={i * 60}>
               <div className="grid sm:grid-cols-[200px_1fr] gap-3 sm:gap-8 py-6 border-t border-border first:border-t-0 sm:items-baseline">
                 <div className="flex items-center justify-between sm:block">
-                  <span className="font-mono text-sm uppercase tracking-wider text-text-primary">
+                  <span className="font-mono text-base uppercase tracking-wider text-text-primary">
                     {s.group}
                   </span>
                   <span className="font-mono text-xs text-text-muted sm:hidden">

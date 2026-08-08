@@ -40,7 +40,7 @@ export default function Experience() {
                     {exp.points.map((p, idx) => (
                       <li
                         key={idx}
-                        className="text-text-secondary text-[15px] leading-relaxed flex gap-3"
+                        className="text-text-secondary text-[17px] leading-relaxed flex gap-3"
                       >
                         <span className="text-accent-b font-mono text-xs mt-1.5 shrink-0">→</span>
                         {p}

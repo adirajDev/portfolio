@@ -22,7 +22,7 @@ export function Tag({ children, tone = "default" }) {
 
   return (
     <span
-      className={`font-mono text-xs px-2.5 py-1.5 rounded-md border leading-none ${toneClass} whitespace-nowrap`}
+      className={`font-mono text-sm px-2.5 py-1.5 rounded-md border leading-none ${toneClass} whitespace-nowrap`}
     >
       {children}
     </span>

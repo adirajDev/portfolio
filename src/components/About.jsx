@@ -12,9 +12,9 @@ const HIGHLIGHTS = [
 export default function About() {
   return (
     <section id="about" className="px-5 md:px-8 py-24 md:py-32">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <RouteLabel n="01" path="/about" />
-        <div className="grid md:grid-cols-[1.3fr_1fr] gap-12 md:gap-16 md:items-start">
+        <div className="grid lg:grid-cols-[1.3fr_1fr] gap-12 lg:gap-12 lg:items-start">
           <Reveal>
             <div>
               <div className="font-mono text-xs text-text-muted mb-4">
@@ -25,7 +25,7 @@ export default function About() {
                 where the request actually gets validated, the query
                 gets planned, and the response gets shaped.
               </p>
-              <ul className="mt-8 flex flex-col gap-4">
+              <ul className="mt-8 flex flex-col gap-4 text-[17px]">
                 {HIGHLIGHTS.map((h, i) => (
                   <li key={i} className="flex gap-3 text-text-secondary leading-relaxed">
                     <span className="text-accent-b font-mono text-xs mt-1.5 shrink-0">→</span>
