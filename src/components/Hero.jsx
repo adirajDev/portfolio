@@ -121,7 +121,7 @@ export default function Hero() {
           </Reveal>
         </div>
 
-        <Reveal delay={200} className="lg:pt-14">
+        <Reveal delay={200} className="hidden lg:block lg:pt-14">
           <CodeTerminal />
         </Reveal>
       </div>
